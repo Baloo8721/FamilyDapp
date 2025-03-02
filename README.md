@@ -1,37 +1,30 @@
-# Family Tracker (Free & Open-Source)
+# Family Tracker App
 
 ## Overview
-A completely free, open-source family tracking app using Flutter and OpenStreetMap. Track family members, pets, and vehicles without any paid APIs.
+A free, open-source family tracking application built with Flutter and OpenStreetMap.
 
 ## Features
-- Free OpenStreetMap integration
 - Real-time location tracking
-- Geofencing alerts
-- Local notifications
-- MQTT-based location sharing
+- OpenStreetMap integration
+- Marker tracking for family members, pets, and vehicles
+- Completely free and open-source
 
-## Prerequisites
-- Flutter SDK
-- Android Studio or VS Code
-- Android/iOS device or emulator
+## Technologies
+- Flutter
+- Dart
+- OpenStreetMap
+- flutter_map
 
-## Setup
+## Getting Started
 1. Clone the repository
-2. Run `flutter pub get` to install dependencies
-3. Configure location permissions in Android/iOS settings
-4. Run `flutter run` to start the app
+2. Run `flutter pub get`
+3. Launch with `flutter run`
 
-## Configuration
-- Modify MQTT broker in `main.dart` if needed
-- Customize markers and geofence settings
-
-## Planned Enhancements
-- Wife's phone location sync
-- Cat collar tracking
-- Ford vehicle integration
+## Roadmap
+- [ ] Real-time location sync
+- [ ] Geofencing
+- [ ] Notifications
+- [ ] More customization options
 
 ## Contributing
-Pull requests are welcome! Please follow Flutter best practices.
-
-## License
-MIT License
+Pull requests are welcome! Please read the contributing guidelines before getting started.
